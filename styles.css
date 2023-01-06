@@ -18,10 +18,21 @@ section#hero{
     align-items: center;
 }
 
-section#hero h1{
+h1{
     font-size: 3rem;
+    text-transform: uppercase;
 }
 
-section#hero h2{
+h2{
     font-size: 2rem;
+}
+
+section#perfil{
+    background-color: rgb(205, 211, 211);
+}
+
+.detalles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
