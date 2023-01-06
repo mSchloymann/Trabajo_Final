@@ -8,48 +8,77 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header></header>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Información Profesional</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <section id="hero">
+            <img src="./imagenes/perfil.jpg">
             <h1>Enzo Lionel Meli</h1>
             <h2>Programador Junior</h2>
         </section>
            
-        <section id="perfil">
-            <div class="detalles">
-                <div class="info_personal">               
-                    <img src="./imagenes/perfil.jpg">
-                    <h2>Perfil</h2>
-                    <p>Programador con más de cinco años de experiencia generando código para empresas del sector bancario. Creé el nuevo portal web de Santander, el cual recibe más de 1 millón de visitas al día. Los errores reportados en los micrositios del banco se redujeron en un 20% y la retención de usuarios incrementó en un 10%. Especialista en solución de problemas y trabajo en equipo</p>
-                </div> 
-                <div class="info-detalles">
-                    <h2>Experiencia</h2>
-                    <p>Programador Web <br>
-                        Banco Santander <br>                
-                        Agosto 2017 Diciembre 2019 <br>
-                        <ul>
-                            <li>Escribí el código una página web con la capacidad de recibir a más de un millón de usuarios diariamente.</li>
-                            <li>Responsable de crear un comparador de tarjetas de crédito que elevó las ventas de producto en un 15%.</li>
-                            <li>Desarrollé una aplicación bancaria especializada en seguros de auto la cual recibió una calificación de 4.8 estrellas.</li>
-                        </ul>                              
-                        Desarrollador Web <br>                
+        <section id="info-personal">
+            <article>           
+                <h2>Perfil</h2> <br>
+                <p>Programador con más de cinco años de experiencia generando código para empresas del sector bancario. Creé el nuevo portal web de <i>Santander</i>, el cual recibe más de 1 millón de visitas al día. Los errores reportados en los micrositios del banco se redujeron en un 20% y la retención de usuarios incrementó en un 10%. Especialista en solución de problemas y trabajo en equipo.</p> <br>
+                <hr>
+            </article>
+            <aside>
+                <h2>Experiencia</h2> <br>
+                <p>Programador Web en <i> Banco Santander </i><br>                
+                    Agosto 2017 Diciembre 2019 <br>
+                    <ul>
+                        <li>Escribí el código una página web con la capacidad de recibir a más de un millón de usuarios diariamente.</li> <br>
+                        <li>Responsable de crear un comparador de tarjetas de crédito que elevó las ventas de producto en un 15%.</li> <br>
+                        <li>Desarrollé una aplicación bancaria especializada en seguros de auto la cual recibió una calificación de 4.8 estrellas.</li> <br>
+                    </ul>                              
+                       <p>Desarrollador Web <br>                
                         Flame Analytics <br>                
                         Enero 2016 - Agosto 2017 <br>
-                        <ul>  
-                            <li>A lo largo de mi estancia, participé en más de 15 proyectos digitales y colaboré con un equipo de diseñadores, copywriters creativos, project managers y Q&A testers.</li>
-                            <li>Reduje el porcentaje de errores mensuales de la página de inicio del portal de la compañía en un 10%.</li>
-                            <li>Como parte del comité de mejoras continuas de la empresa, colaboré para optimizar los tiempos de carga de la página web en un 15%.</li>                    
-                        </ul>                               
-                    </p>
+                        </p>
+                    <ul>  
+                        <li>A lo largo de mi estancia, participé en más de 15 proyectos digitales y colaboré con un equipo de diseñadores, copywriters creativos, project managers y Q&A testers.</li> <br>
+                        <li>Reduje el porcentaje de errores mensuales de la página de inicio del portal de la compañía en un 10%.</li> <br>
+                        <li>Como parte del comité de mejoras continuas de la empresa, colaboré para optimizar los tiempos de carga de la página web en un 15%.</li> <br>                    
+                    </ul>                               
+                </p> <br>
+                    <hr>
                     <h2>Habilidades</h2>
-                    <p> Dominio de PHP, MySQL, HTML5, CSS3 y Javascript <br>
-                    Conocimiento de las bases de datos MySQL, HostgreSQL <br> 
-                    Capacidad de liderazgo y trabajo en equipo
-                    </p>   
-                </div>
-            </div>
+                <p>Dominio de</p>
+                    <ul> 
+                       <li>PHP,</li> <li> MySQL,</li> <li>HTML5,</li> <li>CSS3</li> <li>Javascript</li>
+                       <li>Conocimiento de las bases de datos MySQL, HostgreSQL</li>
+                       <li>Capacidad de liderazgo y trabajo en equipo</li>
+                    </ul>   
+            </aside>
+            
         </section>
-        <section id="contacto"></section>
+        <section id="contacto">
+            <h2>Contacta Conmigo</h2>
+                <form>
+                    <div>
+                        <label>Nombre</label>
+                        <input type="text" placeholder="escribe tu nombre">
+                        
+                    </div>
+                    <div>
+                        <label>Asunto</label>
+                        <input type="text" placeholder="escribe tu asunto">
+                    </div>
+                    <div>
+                        <label>Mensaje</label>
+                        <textarea></textarea>
+                    </div>
+                    <button>Enviar</button>              
+                </form>
+        </section>
     </main>
 </body>
 </html>

@@ -4,18 +4,33 @@
     padding: 0;
 }
 
+/*{
+    outline: 1px solid red;
+}
+
 body{
     background-color: gainsboro;
 }
 
+/*header, section{
+    width: 960px;
+    margin: 0 auto;
+}
+**/
 
 section#hero{
-    height: 100vh;
+    height: 90vh;
     background-color: whitesmoke;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+section#hero img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
 }
 
 h1{
@@ -25,14 +40,61 @@ h1{
 
 h2{
     font-size: 2rem;
+    margin-left: 40px;
 }
 
-section#perfil{
-    background-color: rgb(205, 211, 211);
-}
-
-.detalles{
+section#info-personal{
     display: flex;
-    flex-wrap: wrap;
+    height: 90vh;
+}
+ section#info-personal p{
+    margin-left: 30px;
+ }
+
+article{
+    width: 40%;
+    background-color: rgb(236, 228, 228);
+}
+
+aside{
+    background-color: whitesmoke;
+}
+
+aside ul{
+    margin-left: 50px;
+}
+
+
+header{
+    position: sticky;
+    top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(211, 241, 231);
+}
+
+nav ul{
+    display: flex;
     justify-content: center;
+    list-style: none;
+    
+}
+
+nav ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px 10px;
+    background-color: aliceblue;
+}
+
+section#contacto{
+    height: 80vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#contacto h2{
+    margin-top: 60px;
 }
