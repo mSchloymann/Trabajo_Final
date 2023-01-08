@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Online</title>
+    <link rel="preconectar" href="https://fonts.googleapis.com">
+    <link rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300 & display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/06961d4be8.js" crossorigin="anonymous"></script>
+    <title>CV Online</title>
 </head>
 <body>
     <header>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-bars"></i>
         <nav>
             <ul>
-                <li>Home</li>
+                <li><i class="fa-solid fa-house"></i></li>
                 <li>Información Profesional</li>
                 <li>Contacto</li>
             </ul>
@@ -19,39 +25,55 @@
     </header>
     <main>
         <section id="hero">
-            <img src="./imagenes/perfil.jpg">
             <h1>Enzo Lionel Meli</h1>
             <h2>Programador Junior</h2>
         </section>
            
         <section id="info-personal">
             <article>           
-                <h2>Perfil</h2> <br>
-                <p>Programador con más de cinco años de experiencia generando código para empresas del sector bancario. Creé el nuevo portal web de <i>Santander</i>, el cual recibe más de 1 millón de visitas al día. Los errores reportados en los micrositios del banco se redujeron en un 20% y la retención de usuarios incrementó en un 10%. Especialista en solución de problemas y trabajo en equipo.</p> <br>
+                <img id="img-center" src="./imagenes/perfil.jpg">
+                <h2>Perfil</h2><br>
+                <p>Programador con más de cinco años de experiencia generando código para empresas del sector bancario. Creé el nuevo portal web de Santander, el cual recibe más de 1 millón de visitas al día. Los errores reportados en los micrositios del banco se redujeron en un 20% y la retención de usuarios incrementó en un 10%. Especialista en solución de problemas y trabajo en equipo.</p>
                 <hr>
+                <div class="redes-conteiner">
+                    <ul>
+                        <li> <i class="fa-brands fa-whatsapp"></i></li>
+                            <h5>01112352416</h5> 
+                        <li> <i class="fa-regular fa-envelope"></i></i></li>
+                            <h5>enzolionelmeli@gmail.com</h5>
+                        <li> <i class="fa-solid fa-globe"></i></i></li>
+                            <h5>www.enzolionelmeli.com</h5>
+                        <li> <i class="fa-brands fa-facebook"></i></i></li>
+                            <h5>/enzolionelmeli</h5>
+                        <li> <i class="fa-brands fa-linkedin"></i></i></li>
+                            <h5>/enzolionelmeli</h5>
+                        <li> <i class="fa-brands fa-github"></i></i></li>
+                            <h5>/enzolionelmeli</h5>
+                    </ul>
+                </div>
+                    
             </article>
             <aside>
                 <h2>Experiencia</h2> <br>
-                <p>Programador Web en <i> Banco Santander </i><br>                
-                    Agosto 2017 Diciembre 2019 <br>
+                    <p>Programador Web en <i> Banco Santander </i>             
+                    Agosto 2017 Diciembre 2019</p><br>
                     <ul>
-                        <li>Escribí el código una página web con la capacidad de recibir a más de un millón de usuarios diariamente.</li> <br>
-                        <li>Responsable de crear un comparador de tarjetas de crédito que elevó las ventas de producto en un 15%.</li> <br>
-                        <li>Desarrollé una aplicación bancaria especializada en seguros de auto la cual recibió una calificación de 4.8 estrellas.</li> <br>
+                        <li>Escribí el código una página web con la capacidad de recibir a más de un millón de usuarios diariamente.</li>
+                        <li>Responsable de crear un comparador de tarjetas de crédito que elevó las ventas de producto en un 15%.</li>
+                        <li>Desarrollé una aplicación bancaria especializada en seguros de auto la cual recibió una calificación de 4.8 estrellas.</li><br>
                     </ul>                              
-                       <p>Desarrollador Web <br>                
-                        Flame Analytics <br>                
-                        Enero 2016 - Agosto 2017 <br>
-                        </p>
+                       <p>Desarrollador Web                
+                        Flame Analytics                
+                        Enero 2016 - Agosto 2017
+                        </p><br>
                     <ul>  
-                        <li>A lo largo de mi estancia, participé en más de 15 proyectos digitales y colaboré con un equipo de diseñadores, copywriters creativos, project managers y Q&A testers.</li> <br>
-                        <li>Reduje el porcentaje de errores mensuales de la página de inicio del portal de la compañía en un 10%.</li> <br>
-                        <li>Como parte del comité de mejoras continuas de la empresa, colaboré para optimizar los tiempos de carga de la página web en un 15%.</li> <br>                    
-                    </ul>                               
-                </p> <br>
+                        <li>A lo largo de mi estancia, participé en más de 15 proyectos digitales y colaboré con un equipo de diseñadores, copywriters creativos, project managers y Q&A testers.</li>
+                        <li>Reduje el porcentaje de errores mensuales de la página de inicio del portal de la compañía en un 10%.</li>
+                        <li>Como parte del comité de mejoras continuas de la empresa, colaboré para optimizar los tiempos de carga de la página web en un 15%.</li><br>                    
+                    </ul>                              
                     <hr>
                     <h2>Habilidades</h2>
-                <p>Dominio de</p>
+                    <p>Dominio de:</p>
                     <ul> 
                        <li>PHP,</li> <li> MySQL,</li> <li>HTML5,</li> <li>CSS3</li> <li>Javascript</li>
                        <li>Conocimiento de las bases de datos MySQL, HostgreSQL</li>
@@ -61,22 +83,13 @@
             
         </section>
         <section id="contacto">
-            <h2>Contacta Conmigo</h2>
                 <form>
-                    <div>
-                        <label>Nombre</label>
-                        <input type="text" placeholder="escribe tu nombre">
-                        
-                    </div>
-                    <div>
-                        <label>Asunto</label>
-                        <input type="text" placeholder="escribe tu asunto">
-                    </div>
-                    <div>
-                        <label>Mensaje</label>
-                        <textarea></textarea>
-                    </div>
-                    <button>Enviar</button>              
+                    <h2>Contacta Conmigo</h2>
+                    <input type="text" name="Nombre" placeholder="escribe tu nombre">
+                    <input type="text" name="Correo" placeholder="escribe Correo">
+                    <input type="text" name="Telefono" placeholder="escribe Telefono">
+                    <textarea name="Mensaje" placeholder="Escribe aqui tu Mensaje"></textarea>
+                    <input type="button" value="ENVIAR" id="boton">            
                 </form>
         </section>
     </main>
