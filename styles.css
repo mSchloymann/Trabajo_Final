@@ -12,12 +12,6 @@ body{
     background-color: gainsboro;
 }
 
-/*header, main{
-    width: 960px;
-    margin: 0 auto;
-}**/
-
-
 section#hero{
     height: 100vh;
     background-color: rgb(230, 227, 227);
@@ -193,5 +187,28 @@ section#contacto{
     cursor: pointer;
 }
 
+footer{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background: rgba(0,0,0,0.4);
+}
 
+.footer{
+    padding: 1em 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer i{
+    display: flex;
+    align-items: center;
+    padding: 5px 5px;
+    font-size: 20px;
+    margin-left: 150px;
+}
+
+footer i:hover{
+    cursor: pointer;
+}
 
