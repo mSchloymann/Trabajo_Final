@@ -22,3 +22,11 @@ document.getElementById('perfil').addEventListener('mouseenter', function() {
 document.getElementById('perfil').addEventListener('mouseleave', function() {
     perfil.style.background = "white"
 } );
+
+document.getElementById('experiencia').addEventListener('mouseenter', function() {
+    perfil.style.background = "gray"
+} );
+
+document.getElementById('experiencia').addEventListener('mouseleave', function() {
+    perfil.style.background = "white"
+} );
