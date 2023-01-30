@@ -160,6 +160,7 @@ section#info-personal img{
 section#info-personal h2{
     text-align: center;
 }
+
  section#info-personal article p{
     text-align: center;
     text-align: justify;
@@ -211,14 +212,6 @@ article i{
     padding: 5px 10px;
 }
 
-article h5{
-    display: flex;
-    margin-left: 40px;
-    margin-right: 20px;
-    padding: 2px 4px;
-}
-
-
 aside{
     background-color: rgb(250, 244, 244);
 }
@@ -231,9 +224,40 @@ aside ul{
     line-height: 1.5;
 }
 
+aside > div > #php{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+aside > div > #mysql{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+aside > div > #html{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+aside > div > #css{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+aside > div > #js{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+
 section#contacto{
     min-height: 100vh;
-    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(./imagenes/contactame.jpg);
+    background-image: linear-gradient(rgba(5, 7, 12, 0.4), rgba(5, 7, 12, 0.4)), url(./imagenes/contactame.jpg);
     background-size: 100vw 100vh;
     background-attachment: fixed;
     margin: 0;

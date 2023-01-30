@@ -1,32 +1,41 @@
 
-const button = document.getElementById ('button')
-
+const nav = document.getElementById ('nav');
+const button = document.getElementById ('button');
+const perfil = document.getElementById ('perfil');
+const experiencia = document.getElementById ('experiencia');
+const contacto = document.getElementById ('contacto');
+const redes = document.getElementById ('redes')
 
 
 button.addEventListener('click', () =>{
     console.log('Enviado');
-})
+});
 
-document.getElementById('nav').addEventListener('click', function(){
+redes.addEventListener('click', () =>{
+    console.log('Click');
+});
+
+perfil.addEventListener('mouseenter', () =>{
+    perfil.style.background = 'gray'
+});
+
+perfil.addEventListener('mouseleave', () =>{
+    perfil.style.background = 'white'
+});
+
+experiencia.addEventListener('mouseenter', () =>{
+    experiencia.style.background = 'gray'
+});
+
+experiencia.addEventListener('mouseleave', () =>{
+    experiencia.style.background = 'whitesmoke'
+});
+
+nav.addEventListener('click', () =>{
     console.log('Clik')
 });
 
-document.getElementById('redes').addEventListener('click', function(){
+contacto.addEventListener('click', () =>{
     console.log('Clik')
 });
 
-document.getElementById('perfil').addEventListener('mouseenter', function() {
-    perfil.style.background = "gray"
-} );
-
-document.getElementById('perfil').addEventListener('mouseleave', function() {
-    perfil.style.background = "white"
-} );
-
-document.getElementById('experiencia').addEventListener('mouseenter', function() {
-    perfil.style.background = "gray"
-} );
-
-document.getElementById('experiencia').addEventListener('mouseleave', function() {
-    perfil.style.background = "white"
-} );
