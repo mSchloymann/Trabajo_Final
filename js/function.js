@@ -4,7 +4,7 @@ const button = document.getElementById ('button');
 const perfil = document.getElementById ('perfil');
 const experiencia = document.getElementById ('experiencia');
 const contacto = document.getElementById ('contacto');
-const redes = document.getElementById ('redes')
+const redes = document.getElementById ('redes');
 
 
 button.addEventListener('click', () =>{
@@ -29,10 +29,6 @@ experiencia.addEventListener('mouseenter', () =>{
 
 experiencia.addEventListener('mouseleave', () =>{
     experiencia.style.background = 'whitesmoke'
-});
-
-nav.addEventListener('click', () =>{
-    console.log('Clik')
 });
 
 contacto.addEventListener('click', () =>{

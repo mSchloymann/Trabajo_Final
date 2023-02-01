@@ -16,8 +16,8 @@ html{
 }
 
 header{
+    height: 100%;
     width: 100%;
-    height: 60px;
     position: sticky;
     top: 0;
     left: 0;
@@ -41,17 +41,53 @@ header i:active{
 }
 
 nav{
-    height: 100%;
+    width: 100%;
+    height: 60px;
+    padding: 0px 20px;
 }
 
 nav > ul{
     display: flex;
     justify-content: center;
+    list-style: none;
 }
-nav  ul  li{
+
+nav > ul > li{
     height: 100%;
     list-style: none;
     position: relative;
+}
+
+nav > ul > li:first-child > a{
+    background-image: url(../imagenes/menu.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px 40px;
+}
+
+nav > ul > li:first-child:hover > a{
+    background-image: url(../imagenes/menu.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px 40px;
+}
+
+nav >ul > li:nth-child(3) > a {
+    background-image: url(../imagenes/home.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px 40px;
+}
+
+nav >ul > li:nth-child(3):hover > a{
+    background-image: url(../imagenes/home.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px 40px;
 }
 
 nav > ul > li > a{
@@ -66,6 +102,8 @@ nav > ul > li > a{
     border-radius: 7px;
     font-size: 14px;
     color: rgb(251, 199, 199);
+    list-style: none;
+    margin-top: 10px;
 }
 
 nav > ul > li > a:hover{
@@ -94,12 +132,62 @@ nav ul li ul {
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
     z-index: 10;
     transition: all 300ms ease;
+    list-style: none;
+}
+
+#menu{
+    height: 100%;
+    list-style: none;
+    position: relative;
+    margin-left: -170px;
+}
+
+#menu a{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    position: relative;
+    top: 90px;
+    left: 30px;
+    padding: 14px 0px;
+    visibility:hidden;
+    opacity: 0;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    z-index: 10;
+    transition: all 300ms ease;
+}
+
+#menu a{
+    display: block;
+    color: rgb(118, 47, 47);
+    padding: 6px;
+    padding-left: 14px;
+    margin-top: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: all 300ms ease; 
+}
+
+#menu a{
+    background:  rgb(118, 47, 47);
+    color:#fff;
+    transform: scale(1.2);
+    padding-left: 30px;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+#menu:hover a{
+    visibility: visible;
+    opacity: 1;
+    top: 60px;
 }
 
 nav ul li:hover ul {
     visibility: visible;
     opacity: 1;
-    top: 40px;
+    top: 60px;
 }
 
 nav ul li ul li a{
@@ -147,8 +235,9 @@ section#hero{
     background-size: cover;
 }
 
+
 section#info-personal{
-    scroll-margin-top: 60px;
+    scroll-margin-top: 40px;
 }
 
 section#info-personal img{
@@ -196,7 +285,7 @@ section#info-personal p{
  }
 
 article#perfil{
-    scroll-margin-top: 70px;
+    scroll-margin-top: 60px;
     width: 45%;
     background-color: whitesmoke;
 }
